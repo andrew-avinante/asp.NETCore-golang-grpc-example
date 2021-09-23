@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPCClient", "gRPCClient.csproj", "{86A5EE56-C5CF-4B61-ABAB-7437F79679F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B26FB7F5-04D6-4720-B8A7-A3E33603882D}"
+	ProjectSection(SolutionItems) = preProject
+		..\Protos\greet.proto = ..\Protos\greet.proto
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86A5EE56-C5CF-4B61-ABAB-7437F79679F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A5EE56-C5CF-4B61-ABAB-7437F79679F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86A5EE56-C5CF-4B61-ABAB-7437F79679F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A5EE56-C5CF-4B61-ABAB-7437F79679F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3380D50B-43E6-4C6A-A397-7B1C98B806F0}
+	EndGlobalSection
+EndGlobal
